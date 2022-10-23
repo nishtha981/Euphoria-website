@@ -1,4 +1,4 @@
- /* video background as link */
+/* video background as link */
 #myVideo {
   width: 100vw;
   height: 100vh;
@@ -6,69 +6,68 @@
   position: fixed;
   top: 0;
   left: 0;
-  }
-  
-  /* glassmorphism login signup form */
-  .content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  }
-  form{
-    height: 520px;
-    width: 400px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    padding: 50px 35px;
 }
 
-form *{
-    font-family: 'Poppins',sans-serif;
-    color: #ffffff;
-    letter-spacing: 0.5px;
-    outline: none;
-    border: none;
+/* glassmorphism login signup form */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+form {
+  height: 520px;
+  width: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 35px;
 }
 
-form h3{
+form * {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+form h3 {
   font-size: 32px;
   font-weight: 500;
   line-height: 42px;
   text-align: center;
 }
 
-label{
+label {
   display: block;
   margin-top: 30px;
   font-size: 16px;
   font-weight: 500;
 }
-input{
+input {
   display: block;
   height: 50px;
   width: 100%;
-  background-color: rgba(255,255,255,0.07);
+  background-color: rgba(255, 255, 255, 0.07);
   border-radius: 3px;
   padding: 0 10px;
   margin-top: 8px;
   font-size: 14px;
   font-weight: 300;
 }
-::placeholder{
+::placeholder {
   color: #e5e5e5;
 }
 
-
-button{
+button {
   margin-top: 50px;
   width: 100%;
   background-color: #ffffff;
@@ -80,11 +79,11 @@ button{
   cursor: pointer;
 }
 
-#signup{
+#signup {
   margin-top: 50px;
   width: 100%;
-  background-color:  rgba(255,255,255,0.27);
-  color:#eaf0fb;
+  background-color: rgba(255, 255, 255, 0.27);
+  color: #eaf0fb;
   padding: 15px 0;
   font-size: 18px;
   font-weight: 600;
@@ -93,13 +92,14 @@ button{
 }
 
 /* adding background image to website */
-.bgimage{
+.bgimage {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
   position: fixed;
   top: 0;
   left: 0;
-  background-image: url("eupbg.jpg");
+  background-image: url("assets/images/eupbg.jpg");
   background-size: cover;
-  }
+  background-color: #686262;
+}
