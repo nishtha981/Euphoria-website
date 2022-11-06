@@ -1,0 +1,43 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+
+  top: 0;
+  left: 0;
+  background-image: url("assets/images/eupbg.jpg");
+  background-size: cover;
+  background-color: #686262;
+}
+/* .card1 {
+  left: 0%;
+} */
+.image {
+  margin: 1%;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 50px;
+  background: #2f3031;
+  box-shadow: 19px 19px 38px #28292a, -19px -19px 38px #363738;
+}
+/* .card2 {
+  left: 33%;
+}
+.card3 {
+  left: 66%;
+} */
+.img {
+  width: 250px;
+  border-radius: 12%;
+}
+.main-container {
+  margin: 10%;
+
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
